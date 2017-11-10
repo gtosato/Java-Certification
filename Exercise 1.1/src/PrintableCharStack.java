@@ -1,6 +1,11 @@
 // Filename: PrintableCharStack.java
 public class PrintableCharStack extends CharStack {
 
+	public PrintableCharStack(int capacity) {
+		super(capacity);
+		// TODO Auto-generated constructor stub
+	}
+
 	// Instance method
 	public void printStackElements() {
 		
@@ -9,7 +14,4 @@ public class PrintableCharStack extends CharStack {
 
 		System.out.println();
 	}
-	
-	// Constructor calls the constructor of the superclass explicitly
-	PrintableCharStack(int capacity) { super(capacity); }
 }
